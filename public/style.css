@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+.container {
+  border: 1px solid #ccc;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.videoScreen {
+  display: block;
+  width: 90%;
+  min-height: 200px;
+  border: none;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+h1.h1{
+  text-align: center;
+  color: #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  font-family: sans-serif;
+}
