@@ -1,6 +1,13 @@
 const router = require("express").Router();
 const Contects = require("./schema/contacts");
 
+router.get("/api", (req, res) => {
+  console.log(req.headers);
+  res.status(200).json({
+    message: "ok",
+  });
+});
+
 router.get("/api/contacts", (re, res) => {
   Contects.find().then((datas) => {
     res.status(200).json(datas);
